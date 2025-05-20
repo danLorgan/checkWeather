@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #f0f7f8a8;
+  gap: 1.5rem;
+}
+.card {
+  min-width: 300px;
+  background: linear-gradient(180deg, hwb(240 0% 0% / 0.5), hsla(39, 100%, 50%, 0.582));
+  padding: 20px;
+  box-shadow: -5px -5px 5px hsla(0, 0%, 0%, 0.349);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.city {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.submit {
+  padding: 15px;
+  border: none;
+  background: #4ac532;
+  border-radius: 10px;
+  margin-left: 5px;
+  color: white;
+  font-weight: bold;
+}
+h1 {
+  margin-bottom: 25px;
+}
+p {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+.cityDisplay, .tempDisplay {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.842);
+  margin-bottom: 25px;
+}
+.humidityDisplay {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.descDisplay {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.emojiDisplay {
+  margin: 0;
+  font-size: 7.5rem;
+}
+.errorDisplay {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
