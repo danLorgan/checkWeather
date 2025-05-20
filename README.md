@@ -2,7 +2,7 @@
 
 A responsive web application that fetches and displays weather data for any city using the OpenWeatherMap API.
 
-![Weather App Demo](https://via.placeholder.com/600x400?text=Weather+App+Screenshot) *(Replace with actual screenshot)*
+![Weather App Demo](https://danlorgan.github.io/checkWeather/) *
 
 ## Features ✨
 - Real-time weather data lookup by city name
